@@ -8,7 +8,7 @@ DeepLab <br>
    ----> Images (for training) <br>
    ----> Masks (for training) <br>
    ----> Val_Images (for validation) <br>
-   ----> Val_Maskss (for validation) <br>
+   ----> Val_Masks (for validation) <br>
    ----> Test_Images (for testing) <br>
    ----> Test_Masks (for testing) <br>
    ----> Output (for Saving model) <br>
