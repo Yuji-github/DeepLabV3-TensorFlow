@@ -1,4 +1,4 @@
-# DeepLabV3-TensorFlow
+# DeepLabV3Plus-TensorFlow
 Image Resources: <br>
 https://www.kaggle.com/tapakah68/segmentation-full-body-mads-dataset
 <br> 
