@@ -43,3 +43,11 @@ After 20 epochs, DeepLabV3+ predicts those images with high accuracy.
 |0.0730 | 0.9270 | 0.8643 | 0.1173 | 0.8827 |0.7906|
 
 <img src="./src/results.png" alt="results" title="results"><br>
+
+DeepLabV3+ finishes the training in approximately 30 seconds with 128 x 128 images, and the RAM consumption on the GPU is around 8 GB. This is because I used ResNet50 as a backbone. Thus, selecting different models as the backbone would be different from the results. 
+
+## 5.Future Study
+
+I saw one issue in DeepLabV3+. The model struggles to differentiate between black and white. For example, the model is unable to perform with arms akimbo. This might be related to the image sizes. So, I need to try it with larger images in the future.
+
+<img src="./src/bad.png" alt="bad example" title="bad example">
