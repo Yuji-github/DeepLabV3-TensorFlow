@@ -9,8 +9,6 @@ The above picture shows how the atrous convolution works. In comparison with reg
 The below picture shows the entire model architecture, and it shows that the atrous convolution method used in Atrous Spatial Pyramid Pooling (ASPP).
 <img src="./src/aspp.png" alt="aspp" title="aspp"><br>
 
-
-
 ## 1.Requiremnents
 
 Python ==> 3.8<br>
@@ -27,9 +25,21 @@ DeepLab <br>
    ----> Output (for Saving model) <br>
 
 ## 2.Datsets
-Image Resources: [Link](https://www.kaggle.com/tapakah68/segmentation-full-body-mads-dataset) 
+Image Resources: [Link](https://www.kaggle.com/tapakah68/segmentation-full-body-mads-dataset)<br>
 
+Sample Images:<br>
+<img src="./src/image.png" alt="image" title="iamge" width="256" height="256"><img src="./src/mask.png" alt="mask" title="mask"  width="256" height="256"><br>
 
 ## 3.Demo
 
+https://user-images.githubusercontent.com/52090852/182836463-5320176a-28b5-4eae-81e3-d58cf370b8cd.mp4
+
 ## 4.Results
+
+After 20 epochs, DeepLabV3+ predicts those images with high accuracy.
+
+| Train Loss | Dice Coef | IoU | Val Loss| Val Dice Coef | Val IoU |
+|:---|:---:|:---:|:---:|:---:|---:|
+|0.0730 | 0.9270 | 0.8643 | 0.1173 | 0.8827 |0.7906|
+
+<img src="./src/results.png" alt="results" title="results"><br>
